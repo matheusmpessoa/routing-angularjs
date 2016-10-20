@@ -6,7 +6,7 @@ app.config(function ($routeProvider) {
     $routeProvider
 
     // Rota para a página home
-        .when('/home', {
+        .when('/', {
         templateUrl: 'pages/home.html',
         controller: 'mainCtrl'
     })
