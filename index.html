@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!-- Definição do Angular app -->
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <title>Routing AngularJS</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body ng-controller="mainCtrl">
+    <my-header></my-header>
+    <div id="main" class="container">
+        <!-- AngularJS templating -->
+        <!-- área aonde o conteúdo será injetado -->
+        <div ng-view></div>
+    </div>
+    <my-footer></my-footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- AngularJS -->
+    <script src="js/angular.min.js"></script>
+    <!-- AngularJS Route -->
+    <script src="js/angular-route.min.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
