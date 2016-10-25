@@ -1,0 +1,4 @@
+/* alinhar imagens no meio da página */
+.img-responsive {
+    margin: 0 auto;
+}
