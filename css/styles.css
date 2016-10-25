@@ -1,4 +1,6 @@
 /* alinhar imagens no meio da página */
 .img-responsive {
     margin: 0 auto;
+    width: 450px;
+    height: 293px;
 }
